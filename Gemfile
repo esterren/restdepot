@@ -9,6 +9,7 @@ gem 'heroku'
 
 group :production, :staging do
 
+	gem 'therubyracer-heroku', '0.8.1.pre3'
     gem 'pg' 
 
 end
