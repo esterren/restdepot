@@ -7,7 +7,7 @@ gem 'rails', '3.2.1'
 
 gem 'heroku'
 
-group :production, :staging do
+group :production , :staging do
 
     gem 'pg' 
 
